@@ -386,7 +386,8 @@ public class MainActivity extends AppCompatActivity implements AllSongFragment.c
         }
     }
 
-    // finalTimerString
+    // https://stackoverflow.com/questions/19513145/audio-player-with-seekbar
+    //time
 
     private String getTimeFormatted(long milliseconds) {
         String finalTimerString = "";
