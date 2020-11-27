@@ -21,4 +21,6 @@
     <string name="delete_text"> Are you sure you want to delete</string>
     <string name="play_next">Lượt tiếp theo</string>
     <string name="logout">Đăng xuất</string>
+    <string name="nguoidung_dangki">Đăng kí</string>
+    <string name="nguoidung_dangnhap">Đăng Nhập</string>
 </resources>

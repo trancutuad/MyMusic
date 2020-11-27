@@ -34,13 +34,13 @@
         android:id="@+id/btnDangnhap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Đăng nhập"></Button>
+        android:text="@string/nguoidung_dangnhap"></Button>
     <Button
         android:textColor="@color/colorPrimary"
         android:id="@+id/btnDangki"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Đăng kí"
+        android:text="@string/nguoidung_dangki"
         android:onClick="addUser"></Button>
 
 
