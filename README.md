@@ -1,13 +1,13 @@
 # MusicPlayer
-This is the music player with the interactive UI for the easy access for user
-This application can be used to play mp3 songs. The key features in this are as follows,
-* It contains the ability to fetch all the mp3 songs from the Local Storage. 
-* User can create his/her favourites playlist.
-* Favourites playlist will be permanent until user deletes the songs.
-* User can also add some songs to the currently playing song list which will be temporary.
-* It also has search functionality which will the search the song and give the desired result.
-* It contains a interactive UI which allows user to control the songs. 
-These features are implemented with the help of :-
+ Đây là trình phát nhạc với giao diện người dùng tương tác để người dùng dễ dàng truy cập
+Ứng dụng này có thể được sử dụng để phát các bài hát mp3. 
+Các tính năng chính trong này như sau
+* Load nhạc từ máy
+* Người dùng có thể tạo danh sách yêu thích của mình.
+* Danh sách bài hát yêu thích được lưu trữ DB and có xóa danh sách yêu thích
+* Tìm kiếm bài hát theo Name
+* Chức năng điều khiển chuyển bài phát tạm dừng và tự động phát
+ Các layout Sử Dụng
 1. Navigation Drawer
 2. Fragments
 3. Viewpager
