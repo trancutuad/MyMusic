@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Dao;
+package vn.poly.ass.musicplayer.Dao;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.example.soc_macmini_15.musicplayer.DB.DatabaseHelper;
-import com.example.soc_macmini_15.musicplayer.Model.Nguoidung;
+import vn.poly.ass.musicplayer.DB.DatabaseHelper;
+import vn.poly.ass.musicplayer.Model.Nguoidung;
 
 
 public class NguoiDungDao {

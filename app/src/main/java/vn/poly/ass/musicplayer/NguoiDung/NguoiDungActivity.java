@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.NguoiDung;
+package vn.poly.ass.musicplayer.NguoiDung;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,10 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.soc_macmini_15.musicplayer.Activity.MainActivity;
-import com.example.soc_macmini_15.musicplayer.Dao.NguoiDungDao;
-import com.example.soc_macmini_15.musicplayer.Model.Nguoidung;
-import com.example.soc_macmini_15.musicplayer.R;
+import vn.poly.ass.musicplayer.Activity.MainActivity;
+import vn.poly.ass.musicplayer.Dao.NguoiDungDao;
+import vn.poly.ass.musicplayer.Model.Nguoidung;
+import vn.poly.ass.musicplayer.R;
 
 public class NguoiDungActivity extends AppCompatActivity {
 

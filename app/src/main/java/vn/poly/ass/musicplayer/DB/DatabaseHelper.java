@@ -1,11 +1,11 @@
-package com.example.soc_macmini_15.musicplayer.DB;
+package vn.poly.ass.musicplayer.DB;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.annotation.Nullable;
 
-import com.example.soc_macmini_15.musicplayer.Dao.NguoiDungDao;
+import vn.poly.ass.musicplayer.Dao.NguoiDungDao;
 
 
 public class DatabaseHelper extends SQLiteOpenHelper {

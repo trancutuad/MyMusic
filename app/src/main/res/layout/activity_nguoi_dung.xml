@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="8dp"
-    tools:context=".NguoiDung.NguoiDungActivity">
+    tools:context="vn.poly.ass.musicplayer.NguoiDung.NguoiDungActivity">
 
     <ImageView
         android:layout_width="500dp"

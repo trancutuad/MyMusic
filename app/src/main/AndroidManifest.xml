@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.soc_macmini_15.musicplayer">
+    package="vn.poly.ass.musicplayer">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -12,12 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NguoiDung.NguoiDungActivity"
+        <activity android:name="vn.poly.ass.musicplayer.NguoiDung.NguoiDungActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".Activity.MainActivity"
+        <activity android:name="vn.poly.ass.musicplayer.Activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NguoiDung.ScreenActivity"
+            android:name="vn.poly.ass.musicplayer.NguoiDung.ScreenActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
             <intent-filter>

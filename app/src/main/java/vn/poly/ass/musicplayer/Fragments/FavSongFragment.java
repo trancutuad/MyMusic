@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Fragments;
+package vn.poly.ass.musicplayer.Fragments;
 
 
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
-import com.example.soc_macmini_15.musicplayer.R;
+import vn.poly.ass.musicplayer.Model.SongsList;
+import vn.poly.ass.musicplayer.R;
 
 import java.util.ArrayList;
 

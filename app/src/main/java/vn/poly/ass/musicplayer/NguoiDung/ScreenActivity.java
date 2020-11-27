@@ -1,11 +1,12 @@
-package com.example.soc_macmini_15.musicplayer.NguoiDung;
+package vn.poly.ass.musicplayer.NguoiDung;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.soc_macmini_15.musicplayer.R;
+import vn.poly.ass.musicplayer.R;
+
 
 public class ScreenActivity extends AppCompatActivity {
 

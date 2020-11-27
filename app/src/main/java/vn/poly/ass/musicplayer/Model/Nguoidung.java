@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Model;
+package vn.poly.ass.musicplayer.Model;
 
 public class Nguoidung {
     private String userName;

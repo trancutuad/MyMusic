@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Activity;
+package vn.poly.ass.musicplayer.Activity;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -28,16 +28,16 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.soc_macmini_15.musicplayer.Adapter.ViewPagerAdapter;
-import com.example.soc_macmini_15.musicplayer.Fragments.AllSongFragment;
-import com.example.soc_macmini_15.musicplayer.Fragments.FavSongFragment;
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
-import com.example.soc_macmini_15.musicplayer.NguoiDung.NguoiDungActivity;
-import com.example.soc_macmini_15.musicplayer.R;
+import vn.poly.ass.musicplayer.Adapter.ViewPagerAdapter;
+import vn.poly.ass.musicplayer.Fragments.AllSongFragment;
+import vn.poly.ass.musicplayer.Fragments.FavSongFragment;
+import vn.poly.ass.musicplayer.Model.SongsList;
+import vn.poly.ass.musicplayer.NguoiDung.NguoiDungActivity;
+import vn.poly.ass.musicplayer.R;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements AllSongFragment.createDataParse, FavSongFragment.createDataParsed{
+public class MainActivity extends AppCompatActivity implements AllSongFragment.createDataParse, FavSongFragment.createDataParsed {
 
     private Menu menu;
 

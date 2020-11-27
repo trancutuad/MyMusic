@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Adapter;
+package vn.poly.ass.musicplayer.Adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,8 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
-import com.example.soc_macmini_15.musicplayer.R;
+import vn.poly.ass.musicplayer.Model.SongsList;
+import vn.poly.ass.musicplayer.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Adapter;
+package vn.poly.ass.musicplayer.Adapter;
 
 import android.content.ContentResolver;
 import android.support.annotation.Nullable;
@@ -6,8 +6,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.soc_macmini_15.musicplayer.Fragments.AllSongFragment;
-import com.example.soc_macmini_15.musicplayer.Fragments.FavSongFragment;
+import vn.poly.ass.musicplayer.Fragments.AllSongFragment;
+import vn.poly.ass.musicplayer.Fragments.FavSongFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
