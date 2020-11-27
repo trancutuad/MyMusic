@@ -12,8 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".NguoiDung.NguoiDungActivity" />
+        <activity android:name=".Activity.MainActivity" />
         <activity
-            android:name=".Activity.MainActivity"
+            android:name=".NguoiDung.ScreenActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -26,6 +28,6 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-
     </application>
+
 </manifest>

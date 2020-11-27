@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    tools:context=".NguoiDung.NguoiDungActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/welcome"></ImageView>
+
+    <EditText
+        android:text="admin"
+        android:hint="Nhập tài khoản"
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <EditText
+        android:text="123456"
+        android:hint="Nhập mật khẩu"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        ></EditText>
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btnDangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"></Button>
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btnDangki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí"
+        android:onClick="addUser"></Button>
+
+
+
+</LinearLayout>

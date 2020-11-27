@@ -74,9 +74,7 @@ public class AllSongFragment extends ListFragment {
         setContent();
     }
 
-    /**
-     * Setting the content in the listView and sending the data to the Activity
-     */
+
     public void setContent() {
         boolean searchedList = false;
         songsList = new ArrayList<>();
@@ -93,6 +91,7 @@ public class AllSongFragment extends ListFragment {
         createDataParse.getLength(songsList.size());
         listView.setAdapter(adapter);
 
+        //click vào danh sách
         final boolean finalSearchedList = searchedList;
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -107,17 +106,9 @@ public class AllSongFragment extends ListFragment {
                 }
             }
         });
-
-        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                showDialog(position);
-                return true;
-            }
-        });
     }
 
-
+            // quyen danh sach nhac
     public void getMusic() {
         Uri songUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
         Cursor songCursor = contentResolver.query(songUri, null, null, null, null);
@@ -145,26 +136,6 @@ public class AllSongFragment extends ListFragment {
 
     }
 
-    private void showDialog(final int position) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-        builder.setMessage(getString(R.string.play_next))
-                .setCancelable(true)
-                .setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                    }
-                })
-                .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        createDataParse.currentSong(songsList.get(position));
-                        setContent();
-                    }
-                });
-        AlertDialog alertDialog = builder.create();
-        alertDialog.show();
-    }
 
     public interface createDataParse {
         public void onDataPass(String name, String path);
