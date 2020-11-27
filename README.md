@@ -10,6 +10,6 @@ Các tính năng chính trong này như sau
  Các layout Sử Dụng
 1. Navigation Drawer
 2. Fragments
-3. Viewpager
+3. com.example.soc_macmini_15.musicplayer
 4. SQLite Database
 5. Adapters.
